@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/fit.css">
+    <title>Fitness</title>
+</head>
+<body>
+    <header>
+        <h1>Calorie Calculator</h1>
+        <h2>Calcule quantas calorias você deveria
+            comer para se manter saudável e veja alguns alimentos que vão de ajudar na sua dieta.</h2>
+        <img src="../static/img/headerfit.jpg">
+    </header>
+    <main class="container">
+<form id="formulario" class="form-calculo">
+  <p>Calcule suas calorias</p>
+
+  <input type="number" id="idade" placeholder="Idade" required>
+  <input type="number" id="peso" placeholder="Peso (kg)" required>
+  <input type="number" id="altura" placeholder="Altura (cm)" required>
+
+  <select id="genero" required>
+    <option value="">Gênero</option>
+    <option value="masculino">Masculino</option>
+    <option value="feminino">Feminino</option>
+  </select>
+
+  <select id="atividade" required>
+    <option value="">Nível de atividade</option>
+    <option value="1.2">Sedentário</option>
+    <option value="1.375">Levemente ativo</option>
+    <option value="1.55">Ativo</option>
+    <option value="1.725">Muito ativo</option>
+  </select>
+
+  <button type="submit">Calcular</button>
+</form>
+    </main>
+    <p id="resultado"></p>
+    <section class="alimentos">
+      <h3>Guia Rápido Alimentos</h3>
+
+  <h4> Ricos em Proteína</h4>
+  <div class="fotos">
+  <div class="food">
+  <p>Ovo</p>
+  <img src="../static/img/ovo.jpg" >
+  <p>4,52 g de proteína/50g</p>
+  </div>
+  <div class="food">
+    <P>Peito de Frango</P>
+  <img src="../static/img/frango.jpg">
+  <P>35 g de proteína/100 g</P>
+  </div>
+  <div class="food">
+    <p>Carne Maminha</p>
+  <img src="../static/img/carne.jpg">
+  <p>	30,6g de proteína/100g</p>
+  </div>
+</div>
+
+<h4> Ricos em Carboidratos</h4>
+  <div class="fotos">
+  <div class="food">
+    <p>Batata Doce</p>
+  <img src="../static/img/bd.jpg" >
+  <p>	18,4 g de carboidrato/100g</p>
+  </div>
+  <div class="food">
+    <p>Tapioca</p>
+  <img src="../static/img/tapioca.jpg">
+  <P>	72 g de carboidrato/100 g</P>
+  </div>
+  <div class="food">
+    <p>Mandioca</p>
+  <img src="../static/img/mandioca.jpg">
+  <p>	38.06g de carboidrato/100g</p>
+  </div>
+</div>
+<h4> Ricos em Gordura</h4>
+  <div class="fotos">
+  <div class="food">
+    <p>Abacate</p>
+  <img src="../static/img/abacate.jpg" >
+  <p>	15 g de gordura/100g</p>
+  </div>
+  <div class="food">
+    <p>Azeite de Oliva</p>
+  <img src="../static/img/azeite.jpg">
+  <P>	100 g de gordura/100 g</P>
+  </div>
+  <div class="food">
+    <p>Nozes</p>
+  <img src="../static/img/nozez.png">
+  <p>	59.40g de gordura/100g</p>
+  </div>
+</div>
+
+<h4> Shots Imunidade</h4>
+  <div class="fts">
+  <div class="food">
+  <img src="../static/img/shot.jpg" >
+  <a href="https://www.benegrip.com.br/saude/alimentacao/shot-de-imunidade">Saiba Como Fazer e Porquê Fazer</a>
+  </div>
+</div>
+
+<script src="../static/fit.js"></script>
+
+</body>
+</html>

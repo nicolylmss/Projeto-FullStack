@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header img{
+    width: 100vw;
+    height: 300px;
+    object-fit: fill;
+    display: block;
+    padding-bottom: 50px;
+
+}
+body{
+    background-color: rgb(253, 255, 193);
+}
+h1{
+    object-fit: cover;
+    position: absolute;
+    right: 34%;
+    top: 100px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #000000;
+}
+h2{
+    object-fit: cover;
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 180px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #000000;
+    padding-inline: 100px;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-calculo {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+.form-calculo h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.form-calculo input,
+.form-calculo select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-calculo button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2ecc71;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-calculo button:hover {
+  background-color: #27ae60;
+}
+.container {
+    top: 300px;
+  display: flex;
+  justify-content: center;
+  margin-top: -60px;
+}
+p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+}
+h3{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left:2%;
+    color: rgb(12, 50, 0);
+    text-align: center;
+}
+h4{
+  font-size: 30px;
+  text-align: center;
+}
+.fotos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 20px;
+}
+
+.fotos img {
+  height: 200px;
+  width: 100%;
+  border-radius: 10px;
+}
+a{
+  text-decoration: none;
+  margin-left: 39%;
+  color: rgb(3, 75, 11);
+  font-size: 20px;
+  padding-bottom: 5%;
+}
+.fts img{
+  height: 200px;
+  width: auto;
+  border-radius: 10px;
+  margin-left: 38%;
+  margin-bottom: 20px;
+}
